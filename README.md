@@ -1,24 +1,28 @@
 # Pebbles::Productivity10x::SwitchHosts
 
-TODO: Write a gem description
+For up productivity 10x, deny needless host at work.
 
 ## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'pebbles-productivity10x-switch_hosts'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
 
     $ gem install pebbles-productivity10x-switch_hosts
 
 ## Usage
 
-TODO: Write usage instructions here
+execute as Administrator
+
+    $ pebbles-productivity10x-switch_hosts deny
+
+or use sudo (because this script copies `hosts` file)
+
+    $ sudo pebbles-productivity10x-switch_hosts deny
+
+and re-open your browser, access twitter.com
+
+If you back to free access,
+
+    $ pebbles-productivity10x-switch_hosts allow
+
+and re-open your browser.
 
 ## Contributing
 
